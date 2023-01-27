@@ -1,0 +1,41 @@
+.autocompleteContainer {
+  width: 50%;
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+}
+
+.autocompleteContainer input {
+  width: calc(90% - 1.6rem);
+  border: none;
+  outline: none;
+  padding: 1rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.autocompleteContainer .autocompleteList {
+  overflow: scroll;
+  max-height: 20vh;
+  margin: 0;
+  padding: 0;
+}
+
+.autocompleteContainer .autocompleteList li {
+  list-style: none;
+  padding: 0.5rem 1rem;
+}
+
+.autocompleteContainer .autocompleteList .active {
+  background-color: #0b52b8;
+  opacity: 0.5;
+  color: #fff;
+}
+
+.autocompleteContainer .removeAutocomplete {
+  width: 9%;
+  height: 100%;
+  padding: 1rem;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
